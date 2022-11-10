@@ -23,8 +23,8 @@ v_gamma=0.0025
 N0=100
 K0=50
 #------read table----------#
-setwd("C:/Users/Eric/Desktop/I&Acollaboration/Taiwan/InputData")
-TW_pIPOp<-fread("preIPOprice.txt",data.table = F)
+setwd("WORKDIR")
+TW_pIPOp<-fread("FILE.txt",data.table = F)
 
 
 #-------------------------#
